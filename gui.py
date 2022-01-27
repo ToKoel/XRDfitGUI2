@@ -512,8 +512,8 @@ class XRDfitGUI:
     def __init__(self):
         app = QW.QApplication(sys.argv)
 
-        file = "/Users/tobiaskohler/PhD/thesis/Samples/15nm_old_analysis/XRD_PDF/OC15b2_G50_0p9mm_E28p7keV_T14350eV_M_WAXS.xye"
-        bkg = "/Users/tobiaskohler/PhD/thesis/Samples/15nm_old_analysis/XRD_PDF/MT_G50_0p9mm_E28p7keV_T14350eV_M_WAXS.xye"
+        file = "OC15b2_G50_0p9mm_E28p7keV_T14350eV_M_WAXS.xye"
+        bkg = "MT_G50_0p9mm_E28p7keV_T14350eV_M_WAXS.xye"
         data = Data(file, 0.4329, bkg)
 
         w = Window(data)
